@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.field {
+  display: table;
+}
+
+.field h2 {
+  display: table-caption;
+}
+
+.field ul {
+  display: table-row;
+}
+
+.field li {
+  display: table-cell;
+}
+
+.field header {
+  display: table-header-group;
+}
+
+.column {
+  display: table-column;
+}
+
+.column-group {
+  display: table-column-group;
+}
+
+.row-group {
+  display: table-row-group;
+}
