@@ -1,10 +1,13 @@
 body {
   margin: 0;
   padding: 0;
+  background-color: #282d33;
+  color: #08b558;
 }
 
 .field {
   display: table;
+  border-collapse: collapse;
 }
 
 .field h2 {
@@ -17,6 +20,11 @@ body {
 
 .field li {
   display: table-cell;
+  width: 40px;
+  height: 40px;
+  border: 1px solid #08b558;
+  text-align: center;
+  vertical-align: middle;
 }
 
 .field header {
@@ -33,4 +41,21 @@ body {
 
 .row-group {
   display: table-row-group;
+}
+
+.wrapper {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.content-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.player,
+.computer {
+  flex-basis: auto;
+  max-width: 500px;
 }
